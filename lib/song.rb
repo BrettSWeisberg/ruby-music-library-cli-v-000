@@ -63,7 +63,6 @@ attr_reader :genre, :artist
   end
 end
 
-  def new_from_filename(name)
-
+  
 
 end
