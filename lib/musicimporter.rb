@@ -11,8 +11,8 @@ class MusicImporter
   end
 
   def files
-    path.each do |files|
-    @directory << files
+    path.each do |file|
+    @directory << file
     end
   end
 
