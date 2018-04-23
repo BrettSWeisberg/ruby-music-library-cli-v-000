@@ -10,7 +10,7 @@ class MusicImporter
   end
 
   def files #collaborting objects lab
-    Dir.glob("#{path}/*").map { |file|.gsub("#{path}/", '')}
+    Dir.glob("#{path}/*").map{ |file| file.gsub("#{path}/", '') }
   end
 
 
