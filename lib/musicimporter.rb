@@ -7,11 +7,13 @@ class MusicImporter
   def initialize(path)
     @path = path
     @directory = []
-    @directory << path
+
   end
 
   def files
-    @directory
+    path.each do |files|
+    @directory << files
+  end
   end
 
 
