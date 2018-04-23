@@ -31,6 +31,7 @@ class MusicLibraryController
   end
 
   def list_artists
+    binding.pry
     Artist.all.sort_by(&:name).each.with_index(1) do |art, idx|
       puts "#{idx}. #{art.name}"
     end
@@ -47,7 +48,7 @@ class MusicLibraryController
     input = gets.strip
 
     if Artist.find_by_name(input)
-      
+
     end
   end
 end
