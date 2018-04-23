@@ -11,9 +11,9 @@ class MusicImporter
   end
 
   def files
-  
+
     @directory << path
-    end
+    
   end
 
 
