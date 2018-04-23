@@ -7,11 +7,11 @@ class MusicImporter
   def initialize(path)
     @path = path
     @directory = []
+    @directory << path
   end
 
   def files
-    @directory << path
-    
+    @directory
   end
 
 
