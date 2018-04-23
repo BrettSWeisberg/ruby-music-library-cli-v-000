@@ -11,9 +11,9 @@ class MusicImporter
   end
 
   def files
-
+binding.pry
     @directory << path
-    
+
   end
 
 
