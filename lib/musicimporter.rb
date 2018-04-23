@@ -13,7 +13,7 @@ class MusicImporter
   def files
     path.each do |files|
     @directory << files
-  end
+    end
   end
 
 
