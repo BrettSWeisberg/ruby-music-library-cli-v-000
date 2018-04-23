@@ -10,9 +10,8 @@ class MusicImporter
 
   end
 
-  def files
-    binding.pry
-    @directory << path
+  def files #collaborting objects lab
+    Dir.glob("#{path}/*").map { |file|.gsub("#{path}/", '')}
 
   end
 
