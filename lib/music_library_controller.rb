@@ -25,9 +25,7 @@ class MusicLibraryController
     if input == "list songs"
             list_songs
       end
-
-
-  end
+    end
   end
 
   def list_songs
@@ -79,8 +77,5 @@ class MusicLibraryController
       song = Song.all.sort_by(&:name)[input - 1]
     end
       puts "Playing #{song.name} by #{song.artist.name}" if song
-    end
-
-    def list_songs
     end
 end
