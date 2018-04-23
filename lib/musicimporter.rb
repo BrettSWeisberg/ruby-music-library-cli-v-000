@@ -2,7 +2,7 @@ require 'pry'
 
 class MusicImporter
 
-  attr_reader :path, 
+  attr_reader :path,
 
   def initialize(path)
     @path = path
